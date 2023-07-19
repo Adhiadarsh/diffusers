@@ -15,7 +15,7 @@ spec:
         app: ai-ml
     spec:
       containers:
-        - image: quay.io/rohanp/python-ml:latest
+        - image: quay.io/adhis/ai-ml-2
           imagePullPolicy: Always
           name: ai-ml
           ports:
